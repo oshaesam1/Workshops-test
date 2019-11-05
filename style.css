@@ -1,0 +1,313 @@
+body { background-color: cadetblue}
+
+/** Start Nav Styles ***/
+.nav
+{
+    background-color: rgba(0,0,0,0.3);
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left: 0;
+    z-index: 9;
+}
+.nav .sora
+{
+    width:60px;
+    float: left;
+    position: relative;
+    height: 30px;
+    top: -20px;
+}
+.nav .links
+{
+    width:80%;
+    float: left;
+}
+.nav .links ul
+{
+    margin-left: 40px;
+}
+.nav .links ul li
+{
+    display: inline-block;
+}
+.nav .links ul li a
+{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    margin:10px 20px; 
+}
+.nav .links ul li a:hover
+{
+    transform: scale(1.5,1.5);
+}
+
+/** End Nav Styles ***/
+
+
+
+
+/* Our Team
+-------------------------------------------------------*/
+.Middle { 
+  padding-top: 100px;
+width: 100%; 
+height: 80%;
+background-color: cadetblue}
+.our-team .team-row {
+    margin-left: -40px;
+    margin-right: -40px;
+  }
+  
+  .our-team .team-wrap {
+    padding: 0 40px;
+  }
+  
+  .our-team .container-fluid {
+    padding: 0 50px;
+  }
+  
+  .team-img img {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    overflow: hidden;
+    width: 100%; 
+    border-bottom-style: inherit ;
+    border-width: thin ;
+    border-radius: 50% ; 
+    width: 100px ;
+    height: 100px
+  }
+ .team-img2 img{  
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    overflow: hidden;
+    width: 100%; 
+    border-bottom-style: inherit ;
+    border-width: thin ;
+    border-radius: 50% ; 
+    width: 100px ;
+    height: 100px ;
+    margin-top: 100px
+}
+  
+  .team-member,
+  .team-img {
+    position: relative;
+    overflow: hidden; 
+    
+
+  }
+  
+  .team-title {
+    margin: 30px 0 7px;
+  }
+  
+  .overlay {
+    background-color: rgba(20,20,20,.7);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+  }
+  
+  .team-details {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    padding: 5%;
+    overflow: hidden;
+    width: 100%;
+    z-index: 2;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+  }
+  
+  .team-details p {
+    color: #fff;
+  }
+  
+  .team-img:hover .team-details {
+    opacity: 1 ; 
+
+  }
+  .team-img2 :hover .team-details {
+       opacity: 1;}
+
+  .team-img:hover .overlay {
+    opacity: 1;
+  } 
+   .team-img2:hover .overlay {
+    opacity: 1;
+  }
+  
+  .socials a {
+    display: inline-block;
+    width: 37px;
+    height: 37px;
+    background-color: transparent;
+  }
+  
+  .socials i {
+    line-height: 37px;
+    color: #616161;
+    font-size: 14px;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    text-align: center;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+  
+  .team-details .socials i {
+      color: #fff;
+  }
+  
+  .socials a:hover i {
+    color: #fff;
+    background-color: #355c7d;
+  }
+  
+  
+
+
+
+
+
+  
+/* labtop
+-------------------------------------------------------*/
+
+.our-team .team-row {
+  margin-left: -40px;
+  margin-right: -40px;
+}
+
+.our-team .team-wrap {
+  padding: 0 40px;
+}
+
+.our-team .container-fluid {
+  padding: 0 50px;
+}
+
+.laptop1 img {
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  overflow: hidden;
+  width: 100%;
+  height:100%; 
+ 
+}
+
+
+.laptop1 {
+  position: relative;
+  overflow: hidden;
+left: 110% ;
+ margin-top: 30px
+}
+
+.lap-title {
+  margin: 30px 0 7px;
+}
+
+.overlay {
+  background-color: rgba(20,20,20,.7);
+  position: absolute;
+  top: 0;
+  width: 97%;
+  height: 77%;
+  opacity: 0;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.about {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  padding: 5%;
+  overflow: hidden;
+  width: 100%;
+  z-index: 2;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.about p {
+  color: #fff;
+}
+
+.laptop1:hover .about {
+  opacity: 1;
+  margin-top: -80px;
+}
+
+.laptop1:hover .overlay {
+  opacity: 1;
+}
+
+.socials a {
+  display: inline-block;
+  width: 37px;
+  height: 37px;
+  background-color: transparent;
+}
+
+.socials i {
+  line-height: 37px;
+  color: #616161;
+  font-size: 14px;
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  text-align: center;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.about .socials i {
+    color: #fff;
+}
+
+.socials a:hover i {
+  color: #fff;
+  background-color: #355c7d;
+}
+
+
+
+
+
+
+
